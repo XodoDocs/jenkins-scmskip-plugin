@@ -138,7 +138,7 @@ public class SCMSkipTools {
      */
     public static void stopBuild(Run<?, ?> run) throws IOException, ServletException, FlowInterruptedException {
         run.setDescription("SCM Skip - build skipped");
-        run.setResult(Result.ABORTED);
+        run.setResult(Result.NOT_BUILT);
         run.save();
 
         LOGGER.log(Level.FINE, () -> "Stopping build: '" + run.getId() + "'");
