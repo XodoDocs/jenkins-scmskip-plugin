@@ -30,6 +30,11 @@
       <name>Gregor Plavčak</name>
       <email>gregor@plavcak.net</email>
     </developer>
+    <developer>
+      <id>plavc</id>
+      <name>Ramzi Chennafi</name>
+      <email>rchennafi@apryse.com</email>
+    </developer>
   </developers>
 
   <scm>
