@@ -1,4 +1,6 @@
-This has bene forked from scmskip-plugin in order to change the build result from ABORTED to NOT_BUILT. In the future we could merge our 'shouldTriggerChangeset' function into here.
+# Jenkins SCM Skip Plugin
+
+This has been forked from scmskip-plugin in order to change the build result from ABORTED to NOT_BUILT. In the future we could merge our 'shouldTriggerChangeset' function into here.
 
 # Testing
 
@@ -12,7 +14,7 @@ Run `mvn hpi:hpi` to build the .hpi files for upload to Jenkins.
 
 Run `mvn hpi:run` to run the plugin in a local jenkins repository.
 
-# Jenkins SCM Skip Plugin
+# From the main repo
 
 SCM Skip Plugin skips build triggered by SCM webhooks based on the commit message. If commit message matches given regular expression freestyle or pipeline build is skipped. Default regex is `.*\[ci skip\].*`, but can be overridden in global Jenkins configuration or on specific job/pipeline.
 
